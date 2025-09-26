@@ -52,6 +52,7 @@ declare module 'vue-router/auto/routes' {
     '/blog/front-end/weakup': RouteRecordInfo<'/blog/front-end/weakup', '/blog/front-end/weakup', Record<never, never>, Record<never, never>>,
     '/blog/front-end/website-perf': RouteRecordInfo<'/blog/front-end/website-perf', '/blog/front-end/website-perf', Record<never, never>, Record<never, never>>,
     '/blog/front-end/webssh': RouteRecordInfo<'/blog/front-end/webssh', '/blog/front-end/webssh', Record<never, never>, Record<never, never>>,
+    '/blog/phone-number': RouteRecordInfo<'/blog/phone-number', '/blog/phone-number', Record<never, never>, Record<never, never>>,
     '/blog/source-code-analysis/cli-spinners': RouteRecordInfo<'/blog/source-code-analysis/cli-spinners', '/blog/source-code-analysis/cli-spinners', Record<never, never>, Record<never, never>>,
     '/blog/source-code-analysis/husky': RouteRecordInfo<'/blog/source-code-analysis/husky', '/blog/source-code-analysis/husky', Record<never, never>, Record<never, never>>,
     '/blog/source-code-analysis/i18next': RouteRecordInfo<'/blog/source-code-analysis/i18next', '/blog/source-code-analysis/i18next', Record<never, never>, Record<never, never>>,
