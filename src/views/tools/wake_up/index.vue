@@ -103,7 +103,7 @@ export default {
     wakeApp() {
       this.saveConfig();
 
-      let obj = {};
+      const obj = {};
       this.paramsList.forEach((item) => {
         Reflect.set(obj, item.key, item.value);
       });

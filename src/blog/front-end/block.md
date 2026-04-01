@@ -46,7 +46,7 @@ console.log(a);
 ### Debug👨‍💻‍
 遇到什么执行问题都不如直接执行一个 Debug 来的得快
 
-![1.gif](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a5a62581beeb44f097eb8d97d866b65a~tplv-k3u1fbpfcp-watermark.image?)
+![1.gif](/src/blog/front-end/img/block/1.gif)
 
 #### 结果
 非严格模式下的输出结果为：21、1。🤔

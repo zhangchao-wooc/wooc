@@ -37,14 +37,30 @@ import { ref } from "vue";
 import blogData from "@/blog/data.json";
 import type { RouterLink } from "vue-router";
 
-const allBlogs = ref<Record<string, string>[]>(blogData.data);
+type BlogItem = {
+  title: string;
+  type: string;
+  author: string;
+  updateTime: string;
+  parentRoute: string;
+  route: string;
+  createTime?: string;
+  createTimeStamp?: string;
+};
 
-const clickBlogType = (item: any) => {
+type BlogTypeItem = {
+  type?: string;
+  title?: string;
+};
+
+const allBlogs = ref<BlogItem[]>(blogData.data as BlogItem[]);
+
+const clickBlogType = (item: BlogTypeItem) => {
   if (item.type === "全部") {
-    allBlogs.value = blogData.data;
+    allBlogs.value = blogData.data as BlogItem[];
   } else {
     const currentBlogTypeData = blogData.data.filter((blog) => blog.type === item.title);
-    allBlogs.value = currentBlogTypeData;
+    allBlogs.value = currentBlogTypeData as BlogItem[];
   }
 };
 </script>

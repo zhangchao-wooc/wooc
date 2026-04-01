@@ -5,7 +5,7 @@ localforage.config({
   storeName: 'wake_up'
 });
 
-var store = localforage.createInstance({
+const store = localforage.createInstance({
   name: "tools"
 });
 

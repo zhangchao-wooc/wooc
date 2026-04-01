@@ -16,7 +16,7 @@ const props = defineProps<{
   menu: MenuType;
 }>();
 
-let open = ref(true);
+const open = ref(true);
 
 onMounted(() => {
   console.log(props.menu);
