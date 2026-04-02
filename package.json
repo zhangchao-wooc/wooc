@@ -37,6 +37,7 @@
     "eslint-plugin-vue": "^10.8.0",
     "markdown-it-prism": "^3.0.1",
     "npm-run-all2": "^8.0.4",
+    "picomatch": "^4.0.4",
     "prettier": "^3.0.3",
     "sass": "^1.69.7",
     "typescript": "^6.0.2",
