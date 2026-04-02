@@ -223,6 +223,22 @@
       "updateTime": "2023 年 10 月 18 日",
       "parentRoute": "system",
       "route": "/blog/system/web-server-configuration"
+    },
+    {
+      "title": "seo",
+      "type": "前端",
+      "author": "wooc / 张超",
+      "updateTime": "",
+      "parentRoute": "front-end",
+      "route": "/blog/front-end/seo"
+    },
+    {
+      "title": "npm-package",
+      "type": "前端",
+      "author": "wooc / 张超",
+      "updateTime": "",
+      "parentRoute": "front-end",
+      "route": "/blog/front-end/npm-package"
     }
   ]
 }
